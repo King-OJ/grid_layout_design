@@ -189,13 +189,6 @@ footer {
   .main-nav ul {
     grid-template-columns: 1fr;
   }
-  .info {
-    grid-template-columns: 1fr;
-  }
-  .info .btn {
-    display: block;
-    text-align: center;
-  }
 }
 
 @media (max-width: 500px) {
@@ -209,5 +202,13 @@ footer {
       "showcase"
       "top-box-a"
       "top-box-b";
+  }
+
+  .info {
+    grid-template-columns: 1fr;
+  }
+  .info .btn {
+    display: block;
+    text-align: center;
   }
 }
